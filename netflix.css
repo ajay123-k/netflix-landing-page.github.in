@@ -1,0 +1,641 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/afc06103-4d6a-4236-b496-34b671a7e9ba/383fc36a-aa04-4dfd-95a0-a4b71bc21eed/IN-en-20221003-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size:cover;
+   
+    height: 80vh;
+}
+.mask{
+    height: 80vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}   
+
+.left img{
+    height: 60px;
+    width: auto;
+}
+
+.right button{
+    margin: 0px 8px;
+    height: 40px;
+    font-size: 17px;
+    width: 125px;
+    text-transform: capitalize;
+}
+.right .signup{
+    background-color: rgb(227,8,19);
+    color: white;
+}
+.hero {
+   margin-top: 150px;
+   width: 100%;
+}
+.hero h1{
+    color:white;
+    font-size: 70px;
+    font-weight: bolder;
+}
+.hero .para1{
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+}
+.hero .para2{
+    color: white;
+    font-size: 25px;
+    font-weight: normal;
+}
+.subs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subs .input{
+
+    width: 550px;
+}
+.subs .btn{
+ 
+
+  width: 300px;
+  background-color: rgb(227,8,19);
+  height: 60px;
+  color: white;
+  font-size: 24px;
+  text-transform: capitalize;
+}
+
+.subs .btn:hover {
+    background-color: rgb(240, 35, 46);
+
+}
+
+.main-cont{
+    background-color: black;
+}
+.row1{
+    padding: 10px;
+}
+.row1 h1{
+    font-size: 55px;
+    color: white;
+    font-weight: bolder;
+}
+.row1 p{
+    font-size: 25px;
+    color: white;
+}
+.row1 img{
+    height: 400px;
+    width: 600px;
+}
+
+.fq-row h1{
+    color: white;
+    font-size: 50px;
+}
+
+ .accordion-button{
+    background-color: rgb(48,48,48) !important ;
+    color: white !important;
+    font-size: 25px;
+    border-bottom: 1px solid white !important;
+}
+.accordion-item{
+    background-color: rgb(48,48,48);
+    color: white;
+    border: 1px solid white;
+    font-size: 24px;
+
+}
+
+.footer-sec ul{
+    list-style: none;
+
+}
+
+.footer-sec ul li {
+    padding: 10px;
+}
+.footer-sec ul li a {
+    color: white;
+    font-style: 21px;
+}
+.footer-sec ul li a:hover {
+   text-decoration: underline;
+}
+
+
+hr{
+    height: 55px;
+    color: white;
+    width: 100%;
+    border: 2px solid white;
+}
+
+
+
+@media screen and (max-width:361px) {
+
+
+header{
+  
+    height: 60vh;
+}
+.mask{
+    height: 60vh;
+}
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 5px;
+    }
+    
+    .left img{
+        height: 50px;
+        width:90px;
+    }
+    .globe{
+        display: none;
+    }
+    
+    .right button{
+        margin: 0px;
+        height: 40px;
+        font-size: 13px;
+        width: 85px;
+        text-transform: capitalize;
+    }
+    .right .signup{
+        background-color: rgb(227,8,19);
+        color: white;
+    }
+
+.hero {
+
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+ }
+ .hero h1{
+     color:white;
+     font-size: 35px;
+     font-weight: bolder;
+ }
+ .hero .para1{
+     color: white;
+     font-size: 22px;
+     font-weight: normal;
+ }
+ .hero .para2{
+     color: white;
+     font-size: 17px;
+     font-weight: normal;
+ }
+
+
+.subs .input{
+
+    width: 300px;
+}
+.subs .btn{
+ 
+
+  width: 140px;
+  background-color: rgb(227,8,19);
+  height: 60px;
+  color: white;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+.row1{
+    margin: 20px 0px;
+}
+
+.row1 h1{
+    font-size: 25px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.row1 p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+} 
+
+.row1 img{
+        height: 200px;
+        width: 250px;
+    }
+
+    .row-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.fq-row h1{
+    color: white;
+    font-size: 25px;
+}
+
+ .accordion-button{
+    background-color: rgb(48,48,48) !important ;
+    color: white !important;
+    font-size:17px;
+    border-bottom: 1px solid white !important;
+}
+.accordion-item{
+    background-color: rgb(48,48,48);
+    color: white;
+    border: 1px solid white;
+    font-size: 17px;
+
+}
+.footer-sec ul li a {
+    color: white;
+    font-style: 22px;
+}
+
+}
+
+
+
+@media screen and  (min-width:362px) and (max-width:400px) {
+
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 5px;
+    }
+    header{
+        overflow: hidden;
+    }
+    
+    .left img{
+        height: 55px;
+        width:90px;
+    }
+    .globe{
+        display: none;
+    }
+    
+    .right button{
+        margin: 0px;
+        height: 40px;
+        font-size: 13px;
+        width: 85px;
+        text-transform: capitalize;
+    }
+    .right .signup{
+        background-color: rgb(227,8,19);
+        color: white;
+    }
+
+.hero {
+    margin-top: 150px;
+    width: 100%;
+    padding: 7px;
+ }
+ .hero h1{
+     color:white;
+     font-size: 36px;
+     font-weight: bolder;
+ }
+ .hero .para1{
+     color: white;
+     font-size: 25px;
+     font-weight: normal;
+ }
+ .hero .para2{
+     color: white;
+     font-size: 21px;
+     font-weight: normal;
+ }
+
+
+.subs .input{
+
+    width: 300px;
+}
+.subs .btn{
+ 
+
+  width: 150px;
+  background-color: rgb(227,8,19);
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.row1{
+    margin: 20px 0px;
+}
+
+.row1 h1{
+    font-size: 33px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.row1 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}  .row1 img{
+        height: 200px;
+        width: 330px;
+    }
+
+    .row-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.fq-row h1{
+    color: white;
+    font-size: 28px;
+}
+
+
+ .accordion-button{
+    background-color: rgb(48,48,48) !important ;
+    color: white !important;
+    font-size: 22px;
+    border-bottom: 1px solid white !important;
+    border-top: 1px solid white !important;
+}
+.accordion-item{
+    background-color: rgb(48,48,48);
+    color: white;
+    border: 1px solid white;
+    font-size: 21px;
+
+}
+.footer-sec ul li a {
+    color: white;
+    font-style: 25px;
+}
+
+.footer-sec .calling{
+    font-size: 20px;
+}
+
+}
+
+
+@media screen and (min-width:401px) and (max-width:765px) {
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 5px;
+    }
+    header{
+        overflow: hidden;
+    }
+    
+    .left img{
+        height: 55px;
+        width:130px;
+    }
+    .globe{
+        display: none;
+    }
+    
+    .right button{
+        margin: 0px;
+        height: 40px;
+        font-size: 13px;
+        width: 85px;
+        text-transform: capitalize;
+    }
+    .right .signup{
+        background-color: rgb(227,8,19);
+        color: white;
+    }
+
+.hero {
+    margin-top: 150px;
+    width: 100%;
+    padding: 7px;
+ }
+ .hero h1{
+     color:white;
+     font-size: 42px;
+     font-weight: bolder;
+ }
+ .hero .para1{
+     color: white;
+     font-size: 27px;
+     font-weight: normal;
+ }
+ .hero .para2{
+     color: white;
+     font-size: 23px;
+     font-weight: normal;
+ }
+
+
+.subs .input{
+
+    width: 300px;
+}
+.subs .btn{
+ 
+
+  width: 150px;
+  background-color: rgb(227,8,19);
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.row1{
+    margin: 20px 0px;
+}
+
+.row1 h1{
+    font-size: 38px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+.row1 p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}  .row1 img{
+        height: 200px;
+        width: 380px;
+    }
+
+    .row-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.fq-row h1{
+    color: white;
+    font-size: 35px;
+}
+
+ .accordion-button{
+    background-color: rgb(48,48,48) !important ;
+    color: white !important;
+    font-size: 24px;
+    border-bottom: 1px solid white !important;
+}
+.accordion-item{
+    background-color: rgb(48,48,48);
+    color: white;
+    border: 1px solid white;
+    font-size: 23px;
+
+}
+.footer-sec ul li a {
+    color: white;
+    font-size: 22px;
+}
+
+.footer-sec .calling{
+    font-size: 23px;
+}
+}
+
+@media screen and (min-width:768px ) and (max-width:900px) {
+    
+    nav{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 5px;
+    }
+    header{
+        overflow: hidden;
+        height: 65vh;
+    }
+    .mask{
+        height: 65vh;
+    }
+    
+    .left img{
+        height: 60px;
+        width:130px;
+    }
+    .globe{
+        display: none;
+    }
+    
+    .right button{
+        margin: 0px;
+        height: 50px;
+        font-size: 17px;
+        width: 95px;
+        text-transform: capitalize;
+    }
+    .right .signup{
+        background-color: rgb(227,8,19);
+        color: white;
+    }
+
+.hero {
+    margin-top: 100px;
+    width: 100%;
+    padding: 8px;
+ }
+ .hero h1{
+     color:white;
+     font-size: 50px;
+     font-weight: bolder;
+ }
+ .hero .para1{
+     color: white;
+     font-size: 35px;
+     font-weight: normal;
+ }
+ .hero .para2{
+     color: white;
+     font-size: 28px;
+     font-weight: normal;
+ }
+
+
+.subs .input{
+
+    width: 300px;
+}
+.subs .btn{
+ 
+
+  width: 150px;
+  background-color: rgb(227,8,19);
+  height: 60px;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.row1{
+    margin: 20px 0px;
+}
+
+.row1 h1{
+    font-size: 50px;
+    color: white !important;
+    font-weight: bolder;
+    text-align: center;
+}
+.row1 p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}  .row1 img{
+        height: 200px;
+        width: 450px;
+    }
+
+    .row-2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+.fq-row h1{
+    color: white;
+    font-size: 45px;
+}
+
+ .accordion-button{
+    background-color: rgb(48,48,48) !important ;
+    color: white !important;
+    font-size: 30px;
+    border-bottom: 1px solid white !important;
+}
+.accordion-item{
+    background-color: rgb(48,48,48);
+    color: white;
+    border: 1px solid white;
+    font-size: 27px;
+
+}
+.footer-sec ul li a {
+    color: white;
+    font-size: 25px;
+}
+
+.footer-sec .calling{
+    font-size: 27px;
+}
+}
